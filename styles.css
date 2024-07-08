@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+}
+
+
+.main {
+    min-width: 100%;
+    min-height: 100vh;
+    background: url("https://images.pexels.com/photos/11643390/pexels-photo-11643390.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    backdrop-filter: blur(1rem);
+    max-width: 40rem;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    padding: 3rem;
+    background: linear-gradient(45deg, #0000008c, #41062cb7, #000);
+    justify-content: space-between;
+    min-width: 30rem;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    background: linear-gradient(45deg, hotpink, rgb(7, 125, 188));
+    background-clip: text;
+    color: transparent !important;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    font-family: Roboto, serif;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    margin-bottom: 0.5rem;
+    width: 90%;
+}
+
+label {
+    font-family: Roboto, serif;
+    font-weight: 800;
+    color: #b27bae;
+}
+
+a {
+    display: block;
+    font-family: Roboto, serif;
+    color: hotpink;
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: right;
+}
+
+.btn-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Roboto, serif;
+    background:  linear-gradient(45deg, hotpink, rgb(7, 125, 188));
+    width: 100%;
+    padding-block: 1rem;
+    border: none;
+    color: #ffffffba;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: 0.4s scale ease , 0.3s font-weight ease;
+    font-size: 1.25rem;
+}
+
+h1,
+h2 {
+    color: hotpink;
+    font-family: Montserrat, serif;
+}
+h2{
+    font-size: 1rem;
+}
+input{
+    color: #fff;
+    outline: none;
+    border-bottom: 0.15rem grey solid;
+}
+.options {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 6rem;
+}
+.img-car{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.signup{
+    width: 100%;
+}
+.btn-submit:hover{
+    scale: 0.95;
+    filter: brightness(0.9);
+    color: #fff;
+    font-weight: 500;
+}
+a:hover{
+  color: pink;  
+}
+.img-car img{
+    transition: 0.3s ease-out;
+}
+
+.img-car img:hover{
+    transform: translateY(-0.4rem);
+    cursor: pointer;
+}
+
